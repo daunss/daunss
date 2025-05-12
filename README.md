@@ -6,7 +6,7 @@
 <h1 align="center">✨ Welcome to My GitHub! I'm <strong>Tegarrn</strong> 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Web+Developer+💻;Cyber+Security+Enthusiast+🛡️;Anime+Otaku+🎌;Gamer+4+Life+🎮;&center=true&width=500&height=50" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Web+Developer+%F0%9F%92%BB;Cyber+Security+Enthusiast+%F0%9F%9B%A1%EF%B8%8F;Anime+Otaku+%F0%9F%8E%8C;Gamer+4+Life+%F0%9F%8E%AE" alt="Typing SVG" />
 </p>
 
 ---
