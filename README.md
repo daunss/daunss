@@ -65,16 +65,29 @@ hobbies:
 
 <details>
   <summary>🌸 Elaina Gallery</summary>
-  <p align="center">
-    <img src="https://wallpapercave.com/wp/wp8565463.jpg  " width="400" alt="Elaina Wallpaper"/>
-    <img src="https://i.pinimg.com/originals/68/a0/9e/68a09e2ff1c64fada526e732592fa76f.gif  " width="400" alt="Elaina GIF"/>
-  </p>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+    <div style="width: 300px; height: 300px; overflow: hidden;">
+      <iframe src="https://drive.google.com/file/d/1F4Jir4Xq-FZPI5v0bFMU9KXet5sWoRr6/preview" style="width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
+    </div>
+    <div style="width: 300px; height: 300px; overflow: hidden;">
+      <iframe src="https://drive.google.com/file/d/1FNWarUPSTKLypV69bc4AZHUiYLkbJbd9/preview" style="width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
+    </div>
+    <div style="width: 300px; height: 300px; overflow: hidden;">
+      <iframe src="https://drive.google.com/file/d/1apZ6vKJ-RXCYOIT7Un7p3VS90LpZe4Id/preview" style="width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
+    </div>
+    <div style="width: 300px; height: 300px; overflow: hidden;">
+      <iframe src="https://drive.google.com/file/d/1kbbE4lntbfmHmlJYsxeCA_Qy9O8EZ--k/preview" style="width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
+    </div>
+    <div style="width: 300px; height: 300px; overflow: hidden;">
+      <iframe src="https://drive.google.com/file/d/1jLGAYYLE_gnD01QRwWYmnwAFP1z3MPvD/preview" style="width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
+    </div>
+    <div style="width: 300px; height: 300px; overflow: hidden;">
+      <iframe src="https://drive.google.com/file/d/1l_eVg7qvj9ErPrs3r9wQdDlIMxmN9pY1/preview" style="width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
+    </div>
+  </div>
 </details>
-
 ---
 
-<p align="center">
-  <img src="https://i.imgur.com/gJ6xUxx.gif  " width="100%" height="3"/>
 
 ## 🌐 Connect With Me
 
