@@ -63,8 +63,18 @@ hobbies:
 
 ---
 
-<details> <summary>🌸 Elaina Gallery</summary> <p align="center"> <img src="https://wallpapercave.com/wp/wp8565463.jpg" width="400" alt="Elaina Wallpaper"/> <img src="https://i.pinimg.com/originals/68/a0/9e/68a09e2ff1c64fada526e732592fa76f.gif" width="400" alt="Elaina GIF"/> <img src="https://wallhaven.cc/w/6o8l7y" width="400" alt="Elaina Wallpaper 1"/> <img src="https://wallhaven.cc/w/6o8l7z" width="400" alt="Elaina Wallpaper 2"/> <img src="https://wallhaven.cc/w/6o8l80" width="400" alt="Elaina Wallpaper 3"/> <img src="https://tenor.com/view/elaina-majo-no-tabitabi-witch-magician-loli-gif-18749242" width="400" alt="Elaina GIF 1"/> <img src="https://tenor.com/view/majo-no-tabitabi-the-journey-of-elaina-elaina-happy-cute-gif-19184584" width="400" alt="Elaina GIF 2"/> <img src="https://i.imgur.com/gJ6xUxx.gif" width="400" alt="Elaina Divider"/> <img src="https://i.imgur.com/ElainaImage1.jpg" width="400" alt="Elaina Image 1"/> <img src="https://i.imgur.com/ElainaImage2.jpg" width="400" alt="Elaina Image 2"/> </p> </details> <p align="center"> <img src="https://i.imgur.com/gJ6xUxx.gif" width="100%" height="3"/> </p>
+<details>
+  <summary>🌸 Elaina Gallery</summary>
+  <p align="center">
+    <img src="https://wallpapercave.com/wp/wp8565463.jpg  " width="400" alt="Elaina Wallpaper"/>
+    <img src="https://i.pinimg.com/originals/68/a0/9e/68a09e2ff1c64fada526e732592fa76f.gif  " width="400" alt="Elaina GIF"/>
+  </p>
+</details>
+
 ---
+
+<p align="center">
+  <img src="https://i.imgur.com/gJ6xUxx.gif  " width="100%" height="3"/>
 
 ## 🌐 Connect With Me
 
