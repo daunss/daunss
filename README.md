@@ -1,190 +1,116 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Tegarrn's GitHub</title>
-  <style>
-    body {
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-      color: #fff;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    .header {
-      text-align: center;
-      padding: 3rem 1rem;
-      animation: fadeInDown 2s ease-in-out;
-    }
-    .header h1 {
-      font-size: 3.5rem;
-      background: linear-gradient(90deg, #ff758c, #ff7eb3);
-      -webkit-background-clip: text;
-      color: transparent;
-      animation: typing 4s steps(20, end);
-    }
-    .profile-pic {
-      width: 180px;
-      height: 180px;
-      border-radius: 50%;
-      border: 4px solid #00ffff;
-      box-shadow: 0 0 20px #00ffff;
-      animation: float 3s ease-in-out infinite;
-    }
-    .section {
-      padding: 2rem 1rem;
-      max-width: 900px;
-      margin: auto;
-    }
-    .elaina-gif {
-      width: 100%;
-      max-width: 400px;
-      border-radius: 10px;
-      animation: rotate 10s linear infinite;
-    }
-    .skills {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1.5rem;
-      justify-content: center;
-    }
-    .skill-card {
-      background: rgba(255, 255, 255, 0.1);
-      padding: 1rem 1.5rem;
-      border-radius: 15px;
-      text-align: center;
-      width: 180px;
-      transition: transform 0.3s, box-shadow 0.3s;
-      border: 1px solid #00ffff88;
-    }
-    .skill-card:hover {
-      transform: scale(1.1);
-      box-shadow: 0 0 15px #00ffff;
-    }
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1.5rem;
-    }
-    .project-card {
-      background: #1e1e2f;
-      border-radius: 15px;
-      padding: 1.5rem;
-      transition: all 0.3s;
-      border-left: 4px solid #00ffff;
-    }
-    .project-card:hover {
-      box-shadow: 0 0 20px #00ffff;
-      transform: translateY(-5px);
-    }
-    .anime-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1.5rem;
-      justify-content: center;
-    }
-    .anime-img {
-      width: 120px;
-      height: 180px;
-      object-fit: cover;
-      border-radius: 10px;
-      border: 2px solid #00ffff;
-      transition: transform 0.3s;
-    }
-    .anime-img:hover {
-      transform: scale(1.3) rotate(5deg);
-    }
-    @keyframes fadeInDown {
-      0% { opacity: 0; transform: translateY(-20px); }
-      100% { opacity: 1; transform: translateY(0); }
-    }
-    @keyframes typing {
-      from { width: 0; }
-      to { width: 100%; }
-    }
-    @keyframes float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-10px); }
-    }
-    @keyframes rotate {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
-  </style>
-</head>
-<body>
-  <div class="header">
-    <img src="https://files.catbox.moe/wrgzf5.jpg " alt="Profile Picture" class="profile-pic">
-    <h1>Hello! 👋 I'm Tegarrn</h1>
-    <p>Web Developer | Cybersecurity Enthusiast | Anime & Game Lover 🎮</p>
-  </div>
+<div align="center">
+  <img src="https://files.catbox.moe/wrgzf5.jpg" alt="Profile Banner" width="100%" style="border-radius: 15px;" />
+</div>
 
-  <div class="section">
-    <h2 style="text-align:center;">About Me</h2>
-    <p style="text-align:center; font-size:1.1rem;">
-      🌟 Saya seorang <strong>Web Developer</strong> yang mencintai desain responsif dan pengembangan backend. 
-      Di sisi lain, saya juga tertarik dengan dunia <strong>Cybersecurity</strong> untuk menjaga data dan sistem tetap aman. 
-      Saat senggang, saya menikmati menonton anime dan bermain game! 🎮✨
-    </p>
-  </div>
+<h1 align="center">
+  <a href="https://github.com/Tegarrn">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+my+GitHub+Profile!;I'm+Tegar!;Web+Developer+%26+Cyber+Security+Expert&center=true&size=20&color=f75c7e&duration=4000&pause=1000">
+  </a>
+</h1>
 
-  <div class="section">
-    <h2 style="text-align:center;">Anime Favorite</h2>
-    <img src="https://media.tenor.com/7YNsEtCJnYwAAAAC/elaina-majo-no-tabitabi.gif " alt="Elaina from Majo no Tabi" class="elaina-gif">
-    <p style="text-align:center; margin-top:1rem;">
-      🧙‍♀️ Elaina dari <strong>Majo no Tabi Tabi</strong> adalah karakter favorit saya! Petualangannya menginspirasi saya untuk terus belajar dan eksplorasi dunia teknologi.
-    </p>
-  </div>
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=Tegarrn&color=blueviolet&style=for-the-badge" alt="Profile Views"/>
+  <a href="https://github.com/Tegarrn?tab=followers">
+    <img src="https://img.shields.io/github/followers/Tegarrn?logo=github&style=for-the-badge&color=blueviolet" alt="Followers"/>
+  </a>
+</div>
 
-  <div class="section">
-    <h2 style="text-align:center;">Skills & Expertise</h2>
-    <div class="skills">
-      <div class="skill-card">🌐 Web Development</div>
-      <div class="skill-card">🔒 Cybersecurity</div>
-      <div class="skill-card">🚀 JavaScript</div>
-      <div class="skill-card">🧱 React & Node.js</div>
-      <div class="skill-card">🛡️ Ethical Hacking</div>
-      <div class="skill-card">🔧 Linux & CLI</div>
-    </div>
-  </div>
+<br>
 
-  <div class="section">
-    <h2 style="text-align:center;">Projects</h2>
-    <div class="projects">
-      <div class="project-card">
-        <h3>Portfolio Website</h3>
-        <p>Website pribadi dengan animasi dan desain responsif.</p>
-        <a href="#">View Project →</a>
-      </div>
-      <div class="project-card">
-        <h3>Cybersecurity Lab</h3>
-        <p>Simulasi serangan dan pertahanan jaringan.</p>
-        <a href="#">View Project →</a>
-      </div>
-    </div>
-  </div>
+<div align="center">
+  <img src="https://i.imgur.com/MFO2lJw.gif" width="200px" alt="Elaina Waving" />
+  <p><i>"Magic isn't meant to solve all your problems. Sometimes, you need to solve them yourself."</i></p>
+  <p>— Elaina, Majo no Tabitabi</p>
+</div>
 
-  <div class="section">
-    <h2 style="text-align:center;">Anime Collection</h2>
-    <div class="anime-list">
-      <img src="https://cdn.myanimelist.net/images/anime/5/82581.jpg " alt="Demon Slayer" class="anime-img">
-      <img src="https://cdn.myanimelist.net/images/anime/5/81965.jpg " alt="Attack on Titan" class="anime-img">
-      <img src="https://cdn.myanimelist.net/images/anime/5/121218.jpg " alt="Jujutsu Kaisen" class="anime-img">
-      <img src="https://cdn.myanimelist.net/images/anime/5/121218.jpg " alt="Majo no Tabi Tabi" class="anime-img">
-    </div>
-  </div>
+---
 
-  <div class="section">
-    <h2 style="text-align:center;">Connect With Me</h2>
-    <p style="text-align:center;">
-      <a href="https://linkedin.com/in/tegarrn "><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white " alt="LinkedIn"></a>
-      <a href="https://discord.gg/tegarrn "><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white " alt="Discord"></a>
-      <a href="https://instagram.com/tegarrn "><img src="https://img.shields.io/badge/Instagram-E1306C?style=for-the-badge&logo=instagram&logoColor=white " alt="Instagram"></a>
-    </p>
-  </div>
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> About Me
 
-  <div class="section" style="text-align:center;">
-    <p>💬 Terima kasih telah berkunjung! Jangan ragu untuk menghubungi saya jika ingin berdiskusi tentang teknologi atau anime! 🌈</p>
-  </div>
-</body>
-</html>
+```javascript
+const tegar = {
+  location: "Indonesia",
+  interests: ["Anime", "Gaming", "Cybersecurity", "Web Development"],
+  technicalSkills: {
+    webDevelopment: ["HTML", "CSS", "JavaScript", "React", "Node.js"],
+    cyberSecurity: ["Penetration Testing", "Network Security", "Cryptography"],
+    other: ["Git", "Docker", "Linux"]
+  },
+  favoriteAnime: "Majo no Tabitabi",
+  currentFocus: "Building secure and innovative web applications"
+};
+```
+
+---
+
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="25"> My GitHub Stats
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Tegarrn&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tegarrn&layout=compact&langs_count=7&theme=tokyonight"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tegarrn&theme=tokyonight" alt="GitHub Streak" />
+</div>
+
+---
+
+## <img src="https://i.imgur.com/LwQFXzr.gif" width="25"> Projects & Contributions
+
+<div align="center">
+  <a href="https://github.com/Tegarrn/project1">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Tegarrn&repo=project1&theme=tokyonight" />
+  </a>
+  <a href="https://github.com/Tegarrn/project2">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Tegarrn&repo=project2&theme=tokyonight" />
+  </a>
+</div>
+
+---
+
+## <img src="https://i.imgur.com/YjuJTwb.gif" width="25"> Skills & Technologies
+
+<div align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"/>
+</div>
+
+---
+
+<div align="center">
+  <img src="https://i.imgur.com/wzpFCjF.gif" width="200px" alt="Elaina Magic" />
+  <h3>Connect With Me!</h3>
+  <a href="mailto:your-email@example.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
+  <a href="https://linkedin.com/in/yourusername">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://twitter.com/yourusername">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+  </a>
+</div>
+
+---
+
+<div align="center">
+  <img src="https://i.imgur.com/M5ewAtj.gif" width="100%" alt="Elaina Banner" />
+</div>
+
+<h4 align="center">
+  <a href="https://github.com/Tegarrn">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=Thanks+for+visiting!;Check+out+my+repositories+below!;&center=true&size=15&color=f75c7e">
+  </a>
+</h4>
+
+<!-- These are the SVGs for the animated waveform -->
+<div align="center">
+  <a href="https://github.com/Tegarrn"><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&animation=twinkling"/></a>
+</div>
