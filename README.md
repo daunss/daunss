@@ -107,5 +107,6 @@ hobbies:
 
 <!-- ANIMATED FOOTER -->
 <p align="center">
-  <img src="https://media.tenor.com/VHd1j_aUeegAAAAC/elaina.gif" width="100%" alt="Elaina Animated Footer"/>
+  <img src="https://media.tenor.com/2zLTG3NMRoAAAAAC/elaina-majo-no-tabitabi.gif" width="100%" alt="Elaina Animated Footer"/>
 </p>
+
