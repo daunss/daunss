@@ -65,27 +65,28 @@ hobbies:
 
 <details>
   <summary>🌸 Elaina Gallery</summary>
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-    <div style="width: 300px; height: 300px; overflow: hidden;">
-      <iframe src="https://drive.google.com/file/d/1F4Jir4Xq-FZPI5v0bFMU9KXet5sWoRr6/preview" style="width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
-    </div>
-    <div style="width: 300px; height: 300px; overflow: hidden;">
-      <iframe src="https://drive.google.com/file/d/1FNWarUPSTKLypV69bc4AZHUiYLkbJbd9/preview" style="width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
-    </div>
-    <div style="width: 300px; height: 300px; overflow: hidden;">
-      <iframe src="https://drive.google.com/file/d/1apZ6vKJ-RXCYOIT7Un7p3VS90LpZe4Id/preview" style="width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
-    </div>
-    <div style="width: 300px; height: 300px; overflow: hidden;">
-      <iframe src="https://drive.google.com/file/d/1kbbE4lntbfmHmlJYsxeCA_Qy9O8EZ--k/preview" style="width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
-    </div>
-    <div style="width: 300px; height: 300px; overflow: hidden;">
-      <iframe src="https://drive.google.com/file/d/1jLGAYYLE_gnD01QRwWYmnwAFP1z3MPvD/preview" style="width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
-    </div>
-    <div style="width: 300px; height: 300px; overflow: hidden;">
-      <iframe src="https://drive.google.com/file/d/1l_eVg7qvj9ErPrs3r9wQdDlIMxmN9pY1/preview" style="width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
-    </div>
-  </div>
+  <p align="center">
+    <a href="https://drive.google.com/file/d/1F4Jir4Xq-FZPI5v0bFMU9KXet5sWoRr6/view" target="_blank">
+      <img src="https://drive.google.com/thumbnail?id=1F4Jir4Xq-FZPI5v0bFMU9KXet5sWoRr6" width="300"/>
+    </a>
+    <a href="https://drive.google.com/file/d/1FNWarUPSTKLypV69bc4AZHUiYLkbJbd9/view" target="_blank">
+      <img src="https://drive.google.com/thumbnail?id=1FNWarUPSTKLypV69bc4AZHUiYLkbJbd9" width="300"/>
+    </a>
+    <a href="https://drive.google.com/file/d/1apZ6vKJ-RXCYOIT7Un7p3VS90LpZe4Id/view" target="_blank">
+      <img src="https://drive.google.com/thumbnail?id=1apZ6vKJ-RXCYOIT7Un7p3VS90LpZe4Id" width="300"/>
+    </a>
+    <a href="https://drive.google.com/file/d/1kbbE4lntbfmHmlJYsxeCA_Qy9O8EZ--k/view" target="_blank">
+      <img src="https://drive.google.com/thumbnail?id=1kbbE4lntbfmHmlJYsxeCA_Qy9O8EZ--k" width="300"/>
+    </a>
+    <a href="https://drive.google.com/file/d/1jLGAYYLE_gnD01QRwWYmnwAFP1z3MPvD/view" target="_blank">
+      <img src="https://drive.google.com/thumbnail?id=1jLGAYYLE_gnD01QRwWYmnwAFP1z3MPvD" width="300"/>
+    </a>
+    <a href="https://drive.google.com/file/d/1l_eVg7qvj9ErPrs3r9wQdDlIMxmN9pY1/view" target="_blank">
+      <img src="https://drive.google.com/thumbnail?id=1l_eVg7qvj9ErPrs3r9wQdDlIMxmN9pY1" width="300"/>
+    </a>
+  </p>
 </details>
+
 
 ---
 
