@@ -106,4 +106,6 @@ hobbies:
 </p>
 
 <!-- ANIMATED FOOTER -->
-<img src="https://i.imgur.com/gJ6xUxx.gif" width="100%" alt="Animated Footer"/>
+<p align="center">
+  <img src="https://media.tenor.com/VHd1j_aUeegAAAAC/elaina.gif" width="100%" alt="Elaina Animated Footer"/>
+</p>
