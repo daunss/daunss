@@ -1,190 +1,195 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Tegarrn's GitHub</title>
-  <style>
-    body {
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-      color: #fff;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    .header {
-      text-align: center;
-      padding: 3rem 1rem;
-      animation: fadeInDown 2s ease-in-out;
-    }
-    .header h1 {
-      font-size: 3.5rem;
-      background: linear-gradient(90deg, #ff758c, #ff7eb3);
-      -webkit-background-clip: text;
-      color: transparent;
-      animation: typing 4s steps(20, end);
-    }
-    .profile-pic {
-      width: 180px;
-      height: 180px;
-      border-radius: 50%;
-      border: 4px solid #00ffff;
-      box-shadow: 0 0 20px #00ffff;
-      animation: float 3s ease-in-out infinite;
-    }
-    .section {
-      padding: 2rem 1rem;
-      max-width: 900px;
-      margin: auto;
-    }
-    .elaina-gif {
-      width: 100%;
-      max-width: 400px;
-      border-radius: 10px;
-      animation: rotate 10s linear infinite;
-    }
-    .skills {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1.5rem;
-      justify-content: center;
-    }
-    .skill-card {
-      background: rgba(255, 255, 255, 0.1);
-      padding: 1rem 1.5rem;
-      border-radius: 15px;
-      text-align: center;
-      width: 180px;
-      transition: transform 0.3s, box-shadow 0.3s;
-      border: 1px solid #00ffff88;
-    }
-    .skill-card:hover {
-      transform: scale(1.1);
-      box-shadow: 0 0 15px #00ffff;
-    }
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1.5rem;
-    }
-    .project-card {
-      background: #1e1e2f;
-      border-radius: 15px;
-      padding: 1.5rem;
-      transition: all 0.3s;
-      border-left: 4px solid #00ffff;
-    }
-    .project-card:hover {
-      box-shadow: 0 0 20px #00ffff;
-      transform: translateY(-5px);
-    }
-    .anime-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1.5rem;
-      justify-content: center;
-    }
-    .anime-img {
-      width: 120px;
-      height: 180px;
-      object-fit: cover;
-      border-radius: 10px;
-      border: 2px solid #00ffff;
-      transition: transform 0.3s;
-    }
-    .anime-img:hover {
-      transform: scale(1.3) rotate(5deg);
-    }
-    @keyframes fadeInDown {
-      0% { opacity: 0; transform: translateY(-20px); }
-      100% { opacity: 1; transform: translateY(0); }
-    }
-    @keyframes typing {
-      from { width: 0; }
-      to { width: 100%; }
-    }
-    @keyframes float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-10px); }
-    }
-    @keyframes rotate {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
-  </style>
-</head>
-<body>
-  <div class="header">
-    <img src="https://files.catbox.moe/wrgzf5.jpg " alt="Profile Picture" class="profile-pic">
-    <h1>Hello! 👋 I'm Tegarrn</h1>
-    <p>Web Developer | Cybersecurity Enthusiast | Anime & Game Lover 🎮</p>
-  </div>
+# <div align="center">💫 Welcome to Tegarrn's Magical World 💫</div>
 
-  <div class="section">
-    <h2 style="text-align:center;">About Me</h2>
-    <p style="text-align:center; font-size:1.1rem;">
-      🌟 Saya seorang <strong>Web Developer</strong> yang mencintai desain responsif dan pengembangan backend. 
-      Di sisi lain, saya juga tertarik dengan dunia <strong>Cybersecurity</strong> untuk menjaga data dan sistem tetap aman. 
-      Saat senggang, saya menikmati menonton anime dan bermain game! 🎮✨
-    </p>
-  </div>
+<div align="center">
+  <img src="https://files.catbox.moe/wrgzf5.jpg" alt="Profile Picture" width="200" style="border-radius:50%;"/>
+  <br>
+  <img src="https://img.shields.io/badge/-Web%20Developer-blueviolet?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/-Cyber%20Security-purple?style=for-the-badge&logo=shield&logoColor=white"/>
+  <br>
+  <img src="https://img.shields.io/badge/-Anime%20Enthusiast-ff69b4?style=for-the-badge&logo=crunchyroll&logoColor=white"/>
+  <img src="https://img.shields.io/badge/-Gamer-red?style=for-the-badge&logo=unity&logoColor=white"/>
+</div>
 
-  <div class="section">
-    <h2 style="text-align:center;">Anime Favorite</h2>
-    <img src="https://media.tenor.com/7YNsEtCJnYwAAAAC/elaina-majo-no-tabitabi.gif " alt="Elaina from Majo no Tabi" class="elaina-gif">
-    <p style="text-align:center; margin-top:1rem;">
-      🧙‍♀️ Elaina dari <strong>Majo no Tabi Tabi</strong> adalah karakter favorit saya! Petualangannya menginspirasi saya untuk terus belajar dan eksplorasi dunia teknologi.
-    </p>
-  </div>
+<br>
 
-  <div class="section">
-    <h2 style="text-align:center;">Skills & Expertise</h2>
-    <div class="skills">
-      <div class="skill-card">🌐 Web Development</div>
-      <div class="skill-card">🔒 Cybersecurity</div>
-      <div class="skill-card">🚀 JavaScript</div>
-      <div class="skill-card">🧱 React & Node.js</div>
-      <div class="skill-card">🛡️ Ethical Hacking</div>
-      <div class="skill-card">🔧 Linux & CLI</div>
-    </div>
-  </div>
+<div align="center">
+  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" height="4"/>
+</div>
 
-  <div class="section">
-    <h2 style="text-align:center;">Projects</h2>
-    <div class="projects">
-      <div class="project-card">
-        <h3>Portfolio Website</h3>
-        <p>Website pribadi dengan animasi dan desain responsif.</p>
-        <a href="#">View Project →</a>
-      </div>
-      <div class="project-card">
-        <h3>Cybersecurity Lab</h3>
-        <p>Simulasi serangan dan pertahanan jaringan.</p>
-        <a href="#">View Project →</a>
-      </div>
-    </div>
-  </div>
+## <div align="center">✨ "Magic is not a solution, but a journey" - Elaina ✨</div>
 
-  <div class="section">
-    <h2 style="text-align:center;">Anime Collection</h2>
-    <div class="anime-list">
-      <img src="https://cdn.myanimelist.net/images/anime/5/82581.jpg " alt="Demon Slayer" class="anime-img">
-      <img src="https://cdn.myanimelist.net/images/anime/5/81965.jpg " alt="Attack on Titan" class="anime-img">
-      <img src="https://cdn.myanimelist.net/images/anime/5/121218.jpg " alt="Jujutsu Kaisen" class="anime-img">
-      <img src="https://cdn.myanimelist.net/images/anime/5/121218.jpg " alt="Majo no Tabi Tabi" class="anime-img">
-    </div>
-  </div>
+<div align="center">
+  <img src="https://media.tenor.com/H-NXH7iOy_gAAAAC/anime-witch.gif" width="500" alt="Elaina GIF"/>
+</div>
 
-  <div class="section">
-    <h2 style="text-align:center;">Connect With Me</h2>
-    <p style="text-align:center;">
-      <a href="https://linkedin.com/in/tegarrn "><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white " alt="LinkedIn"></a>
-      <a href="https://discord.gg/tegarrn "><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white " alt="Discord"></a>
-      <a href="https://instagram.com/tegarrn "><img src="https://img.shields.io/badge/Instagram-E1306C?style=for-the-badge&logo=instagram&logoColor=white " alt="Instagram"></a>
-    </p>
-  </div>
+<br>
 
-  <div class="section" style="text-align:center;">
-    <p>💬 Terima kasih telah berkunjung! Jangan ragu untuk menghubungi saya jika ingin berdiskusi tentang teknologi atau anime! 🌈</p>
-  </div>
-</body>
-</html>
+<div align="center">
+  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" height="4"/>
+</div>
+
+## <div align="center">🔮 My Magical Skill Set 🔮</div>
+
+<div align="center">
+  <table>
+    <tr>
+      <td valign="top" width="50%">
+        <h3 align="center">Frontend Sorcery</h3>
+        <div align="center">  
+          <img src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" />  
+          <img src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" />  
+          <img src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />  
+          <img src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" />  
+          <img src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="50" />  
+        </div>
+      </td>
+      <td valign="top" width="50%">
+        <h3 align="center">Backend Wizardry</h3>
+        <div align="center">  
+          <img src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="50" />  
+          <img src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" />  
+          <img src="https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg" alt="Express.js" height="50" />  
+          <img src="https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg" alt="MongoDB" height="50" />  
+          <img src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL" height="50" />  
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="50%">
+        <h3 align="center">Security Spells</h3>
+        <div align="center">  
+          <img src="https://profilinator.rishav.dev/skills-assets/linux-original.svg" alt="Linux" height="50" />  
+          <img src="https://profilinator.rishav.dev/skills-assets/gnu_bash-icon.svg" alt="Bash" height="50" />  
+          <img src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" />  
+          <img src="https://www.vectorlogo.zone/logos/wireshark/wireshark-icon.svg" alt="Wireshark" height="50" />  
+          <img src="https://www.vectorlogo.zone/logos/metasploitproject/metasploitproject-icon.svg" alt="Metasploit" height="50" />  
+        </div>
+      </td>
+      <td valign="top" width="50%">
+        <h3 align="center">DevOps Enchantments</h3>
+        <div align="center">  
+          <img src="https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg" alt="Docker" height="50" />  
+          <img src="https://profilinator.rishav.dev/skills-assets/kubernetes-icon.svg" alt="Kubernetes" height="50" />  
+          <img src="https://profilinator.rishav.dev/skills-assets/amazonwebservices-original-wordmark.svg" alt="AWS" height="50" />  
+          <img src="https://profilinator.rishav.dev/skills-assets/jenkins-icon.svg" alt="Jenkins" height="50" />  
+          <img src="https://www.vectorlogo.zone/logos/terraformio/terraformio-icon.svg" alt="Terraform" height="50" />  
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" height="4"/>
+</div>
+
+## <div align="center">🧙‍♀️ My Magical Journey 🧙‍♀️</div>
+
+<div align="center">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWZxcDM2Z2wyanE1YmxoODlsMXByZHlrOGJmYXR5a21sa2syZGlhcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TCBJw2ZLdeOg9lkJZf/giphy.gif" width="500" alt="Elaina Flying"/>
+</div>
+
+<br>
+
+```javascript
+const tegar = {
+  location: "Traveling across magical realms",
+  interests: ["Web Development", "Cyber Security", "Anime", "Gaming"],
+  currentlyWatching: "Majo no Tabitabi (The Journey of Elaina)",
+  favoriteCharacter: "Elaina - The Ashen Witch",
+  gamingPlatforms: ["PC", "PlayStation", "Nintendo Switch"],
+  dailyQuest: "Turning coffee into code and creating secure digital worlds"
+};
+```
+
+<br>
+
+<div align="center">
+  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" height="4"/>
+</div>
+
+## <div align="center">📊 My Spell Book (GitHub Stats) 📊</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Tegarrn&show_icons=true&count_private=true&hide_border=true&theme=tokyonight" align="center" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tegarrn&hide_border=true&layout=compact&theme=tokyonight" align="center" />
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=Tegarrn&&style=flat-square" align="center" />
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" height="4"/>
+</div>
+
+## <div align="center">🌟 Magical Projects 🌟</div>
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" align="center">
+        <h3>Secure Web Portal</h3>
+        <img src="https://i.pinimg.com/originals/06/60/ef/0660efe82fa3da42ed56eef013171835.gif" alt="Project 1" width="100%"/>
+        <p>Advanced web application with state-of-the-art security features</p>
+      </td>
+      <td width="50%" align="center">
+        <h3>Anime Recommendation Engine</h3>
+        <img src="https://i.pinimg.com/originals/b0/fc/5b/b0fc5b4d3d3b5c69702ceca794019f03.gif" alt="Project 2" width="100%"/>
+        <p>AI-powered system to find your next favorite anime series</p>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" align="center">
+        <h3>Network Defense Tool</h3>
+        <img src="https://i.pinimg.com/originals/85/f1/1f/85f11f101e1c4813b6681244604d88e0.gif" alt="Project 3" width="100%"/>
+        <p>Proactive security monitoring and threat detection system</p>
+      </td>
+      <td width="50%" align="center">
+        <h3>Gaming Analytics Dashboard</h3>
+        <img src="https://i.pinimg.com/originals/61/64/14/616414637cc4b4bbf8cafb56aa11cb25.gif" alt="Project 4" width="100%"/>
+        <p>Real-time performance tracking for competitive gamers</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" height="4"/>
+</div>
+
+## <div align="center">📫 Summon Me 📫</div>
+
+<div align="center">
+  <a href="https://github.com/Tegarrn" target="_blank">
+    <img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" alt="GitHub" style="margin-bottom: 5px;" />
+  </a>
+  <a href="https://twitter.com/" target="_blank">
+    <img src="https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" style="margin-bottom: 5px;" />
+  </a>
+  <a href="https://linkedin.com/in/" target="_blank">
+    <img src="https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" style="margin-bottom: 5px;" />
+  </a>
+  <a href="https://instagram.com/" target="_blank">
+    <img src="https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" style="margin-bottom: 5px;" />
+  </a>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://media.tenor.com/WPZNhCLR9CQAAAAC/elaina-anime.gif" width="400" alt="Elaina Waving"/>
+  <h3>"Thank you for visiting my magical realm! Let's create something wonderful together."</h3>
+</div>
+
+<div align="center">
+  <img src="https://i.imgur.com/waxVImv.png" alt="Colorful Divider" height="4"/>
+</div>
