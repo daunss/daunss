@@ -1,4 +1,3 @@
-<!-- PROFILE IMAGE -->
 <p align="center">
   <img src="https://files.catbox.moe/wrgzf5.jpg" width="200" style="border-radius: 50%;" alt="Daunss Profile"/>
 </p>
